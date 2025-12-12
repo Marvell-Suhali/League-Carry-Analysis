@@ -1,4 +1,3 @@
-# League Carry Analysis
 <h1>League Carry Analysis – DSC 80 Final Project</h1>
 <h3><em>Predicting carry roles in League of Legends esports</em></h3>
 <p><strong>Author:</strong> Marvell Suhali</p>
