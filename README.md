@@ -101,7 +101,7 @@ that Bot laners more often command a larger share of their team’s total gold.
 </p>
 
 <iframe
-  src="assets/earned_gold_share_distribution.html"
+  src="assets/dearned_gold_share_distribution.html"
   width="800"
   height="600"
   frameborder="0">
