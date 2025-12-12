@@ -83,6 +83,8 @@ Most players deal between <strong>25–35%</strong> of their team’s damage.
 A long right tail above 40% captures extreme carry performances where a single
 player heavily dominates damage output.
 </p>
+
+
 <iframe
   src="assets/damage_share_distribution.html"
   width="800"
@@ -97,6 +99,7 @@ Earned gold share is tightly centered around <strong>20%</strong> for both roles
 However, the ADC (Bot) distribution shows a heavier tail above 35%, indicating
 that Bot laners more often command a larger share of their team’s total gold.
 </p>
+
 <iframe
   src="assets/earned_gold_share_distribution.html"
   width="800"
@@ -113,6 +116,7 @@ Comparing damage share by role, Bot laners exhibit both a higher mean damage sha
 and more extreme high-damage games compared to Mid laners, reinforcing the idea
 that ADCs are traditional late-game carries.
 </p>
+
 <iframe
   src="assets/damage_share_by_role.html"
   width="800"
@@ -127,6 +131,7 @@ strong positive relationship, especially for Bot players. Players with more gold
 almost always convert that gold into higher damage share, which is consistent with
 carry roles being resource-intensive.
 </p>
+
 <iframe
   src="assets/gold_vs_damage.html"
   width="800"
