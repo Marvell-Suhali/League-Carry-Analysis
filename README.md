@@ -74,8 +74,6 @@ percentage of their team’s total damage.
   </li>
 </ul>
 
-<p><em>(Head of the cleaned DataFrame should be embedded here using an image or HTML table from the notebook.)</em></p>
-
 <h2>Univariate Analysis</h2>
 <h3>Damage Share Distribution</h3>
 <p>
@@ -203,8 +201,6 @@ Permutation tests indicated that missingness in <code>killsat25</code>
 to game tempo statistics but not directly to the game outcome itself.
 </p>
 
-<p><em>(Embed a Plotly visualization of distributions or the permutation test statistic here.)</em></p>
-
 <hr />
 
 <h1>Hypothesis Testing</h1>
@@ -239,8 +235,6 @@ We reject the null hypothesis. There is strong statistical evidence that
 difference in probabilities is small because each team has only one carry per
 five players.
 </p>
-
-<p><em>(Optional: embed a visualization of the permutation distribution here.)</em></p>
 
 <hr />
 
