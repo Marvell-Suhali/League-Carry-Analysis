@@ -77,14 +77,19 @@ percentage of their team’s total damage.
 <p><em>(Head of the cleaned DataFrame should be embedded here using an image or HTML table from the notebook.)</em></p>
 
 <h2>Univariate Analysis</h2>
-
 <h3>Damage Share Distribution</h3>
 <p>
 Most players deal between <strong>25–35%</strong> of their team’s damage.
 A long right tail above 40% captures extreme carry performances where a single
 player heavily dominates damage output.
 </p>
-<p><em>(Embed Plotly histogram of <code>damageshare</code> here.)</em></p>
+<iframe
+  src="assets/damage_share_distribution.html"
+  width="800"
+  height="600"
+  frameborder="0">
+</iframe>
+
 
 <h3>Earned Gold Share Distribution</h3>
 <p>
@@ -92,7 +97,13 @@ Earned gold share is tightly centered around <strong>20%</strong> for both roles
 However, the ADC (Bot) distribution shows a heavier tail above 35%, indicating
 that Bot laners more often command a larger share of their team’s total gold.
 </p>
-<p><em>(Embed Plotly histogram of <code>earnedgoldshare</code>, colored by <code>position</code>, here.)</em></p>
+<iframe
+  src="assets/earned_gold_share_distribution.html"
+  width="800"
+  height="600"
+  frameborder="0">
+</iframe>
+
 
 <h2>Bivariate Analysis</h2>
 
@@ -102,6 +113,12 @@ Comparing damage share by role, Bot laners exhibit both a higher mean damage sha
 and more extreme high-damage games compared to Mid laners, reinforcing the idea
 that ADCs are traditional late-game carries.
 </p>
+<iframe
+  src="assets/damage_share_by_role.html"
+  width="800"
+  height="600"
+  frameborder="0">
+</iframe>
 
 <h3>Gold vs Damage Share</h3>
 <p>
@@ -110,7 +127,12 @@ strong positive relationship, especially for Bot players. Players with more gold
 almost always convert that gold into higher damage share, which is consistent with
 carry roles being resource-intensive.
 </p>
-<p><em>(Embed your Plotly boxplot / scatter plot here.)</em></p>
+<iframe
+  src="assets/gold_vs_damage.html"
+  width="800"
+  height="600"
+  frameborder="0">
+</iframe>
 
 <h2>Interesting Aggregates</h2>
 
